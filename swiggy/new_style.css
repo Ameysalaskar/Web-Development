@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    height: 100vh;
+    width: 50%;
+    /* background-color: red; */
+   
+}
+.header{
+    height: 214px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+.left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.left-content > .h3{
+    background-color: black;
+    color: white;
+    padding: 10px 24px;
+    
+}
+
+.content{
+    height: 95px;
+    /* background-color: bisque; */
+    padding: 0 77px;
+}
+
+.heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+.sub_heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sub-content{
+    height: 85px;
+    /* background-color: aqua; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 8px 0;
+ 
+}
+
+.search-box{
+    padding: 1px 13px;
+    margin: 0 72px;
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border-color: orange;
+    box-shadow: 2px 4px 16px 1px;
+  
+}
+.search-box > p{
+    color: gray;
+}
+.left-search-items{
+    align-items: center;
+}
+.search-box > .left-search-items{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    left: 13px;
+}
+.left-search-items > .sub2{
+    background-color: orange;
+    padding: 14px 12px;
+    text-transform: uppercase;
+}
+.left-search-items > .sub1{
+    text-transform: capitalize;
+}
+
+
+.footer{
+    height: 150px;
+    padding: 0 71px;
+    /* background-color: blue; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer > p{
+    font-size: 20px;
+    color: gray;
+    text-transform: uppercase;
+}
+.footer > span{
+    font-size: 15px;
+}
+.footer > .gray{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    height: 100vh;
+    width: 50%;
+    /* background-color: blue; */
+    background-image: url("https://wallpapers.com/images/featured/food-photography-background-iyvy1e8yztvry3g8.jpg");
+    background-size: cover;
+}
