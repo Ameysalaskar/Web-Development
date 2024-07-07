@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page1{
+    background-color: navajowhite;
+    height: 90vh;
+}
+.page1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.page1 span{
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+}
+span{
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+.page2{
+    height: 300vh;
+    background-color: gray;
+    position: relative;
+    transition: 1s ease;
+}
+.page2 .box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.page3{
+    height: 100vh;
+    background-color: black;
+}
+.page4{
+    height: 100vh;
+    background-color: gray;
+}
+.page5{
+    height: 100vh;
+    background-color: aliceblue;
+}
